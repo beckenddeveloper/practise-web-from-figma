@@ -1,0 +1,781 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+}
+
+body {
+  width: 1519px;
+  margin: auto;
+}
+
+.part1 {
+  width: 1519px;
+  background-color: rgb(119, 17, 221);
+  height: 879px;
+}
+.part1 .images {
+  display: flex;
+  width: 90%;
+}
+.part1 .images .img2r1 {
+  display: flex;
+  justify-content: end;
+  margin-left: 1100px;
+}
+.part1 .r1r2 {
+  display: flex;
+}
+.part1 .r1r2 .leftr1 {
+  width: 37.7%;
+  margin-left: 5%;
+  margin-top: 200px;
+}
+.part1 .r1r2 .leftr1 .t1lr1 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 75.5px;
+  letter-spacing: 2px;
+  text-align: left;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+.part1 .r1r2 .leftr1 .t2lr1 {
+  margin: 50px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+  color: white;
+}
+.part1 .r1r2 .leftr1 .downloads {
+  display: flex;
+}
+.part1 .r1r2 .leftr1 .downloads .down1 {
+  border: 3px solid black;
+  box-shadow: 0px 3px 0px black;
+  display: flex;
+  background-color: white;
+  padding: 7px 20px;
+  border-radius: 5px;
+  margin-right: -50px;
+  margin-left: -0.00000001px;
+}
+.part1 .r1r2 .leftr1 .downloads .down1 span {
+  padding: 0px 5px;
+  color: rgb(28, 28, 29);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part1 .r1r2 .leftr1 .downloads .down2 {
+  border: 3px solid black;
+  box-shadow: 0px 5px 0px black;
+  display: flex;
+  background-color: white;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+.part1 .r1r2 .leftr1 .downloads .down2 span {
+  padding: 0px;
+  color: rgb(28, 28, 29);
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part1 .r1r2 .leftr1 .downloads .down1:hover {
+  background-color: rgb(192, 192, 192);
+}
+.part1 .r1r2 .leftr1 .downloads .down1:active {
+  background-color: rgb(192, 192, 192);
+  box-shadow: none;
+  border: 1px solid black;
+}
+.part1 .r1r2 .leftr1 .downloads .down2:hover {
+  background-color: rgb(192, 192, 192);
+}
+.part1 .r1r2 .leftr1 .downloads .down2:active {
+  background-color: rgb(192, 192, 192);
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.part2 .texthor2 {
+  padding-top: 100px;
+}
+.part2 .texthor2 .r2t1 {
+  padding: 20px 0px;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(28, 28, 29);
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.part2 .texthor2 .r2t2 {
+  color: rgb(71, 74, 87);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.part2 .boxes {
+  display: flex;
+}
+.part2 .boxes .box1r2 {
+  background-color: rgb(250, 102, 72);
+  width: 20%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px black;
+}
+.part2 .boxes .box1r2 .topr2 {
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  font-weight: 500;
+}
+.part2 .boxes .box1r2 .tbottr2 {
+  color: white;
+  padding: 5px 10px;
+  padding-left: 10px;
+}
+.part2 .boxes .box2r2 {
+  background-color: rgb(255, 176, 188);
+  width: 20%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px black;
+}
+.part2 .boxes .box2r2 .top2r2 {
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  font-weight: 500;
+}
+.part2 .boxes .box2r2 .tbott2r2 {
+  color: white;
+  padding: 5px 10px;
+  padding-left: 10px;
+}
+.part2 .boxes .box3r2 {
+  background-color: rgb(255, 189, 18);
+  width: 20%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 0px black;
+}
+.part2 .boxes .box3r2 .top3r2 {
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  font-weight: 500;
+}
+.part2 .boxes .box3r2 .tbott3r2 {
+  color: white;
+  padding: 5px 10px;
+  padding-left: 10px;
+}
+.part2 .boxes .halfbox1 {
+  background-color: rgb(255, 189, 18);
+  width: 10%;
+  height: 150px;
+  border: 2px solid black;
+  border-left: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 5px 0px black;
+  margin-left: -0.001px;
+}
+.part2 .boxes .halfbox1 .t1half1 {
+  padding: 15px 0px;
+  font-weight: 500;
+}
+.part2 .boxes .halfbox2 {
+  background-color: rgb(255, 189, 18);
+  width: 10%;
+  height: 150px;
+  border: 2px solid black;
+  border-right: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0px 5px 0px black;
+  margin-right: -0.001px;
+}
+.part2 .boxes .halfbox2 .htop3r2 {
+  display: flex;
+  padding-top: 10px;
+}
+.part2 .boxes .halfbox2 .htop3r2 .httop3r2 {
+  margin-right: -0.000001px;
+  font-weight: 600;
+  color: white;
+}
+.part2 .kululaho {
+  display: flex;
+  margin-top: 50px;
+}
+.part2 .kululaho .kulula {
+  width: 6px;
+  height: 7px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: -700px;
+  margin-right: none;
+}
+.part2 .kululaho .kulula1 {
+  width: 8px;
+  height: 9px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: rgb(255, 189, 18);
+}
+
+.part3 {
+  display: flex;
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: rgb(150, 46, 255);
+}
+.part3 .leftr3 {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.part3 .leftr3 .t1r3 {
+  font-family: "Permanent Marker", cursive;
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.part3 .leftr3 .t2r3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+  padding: 50px 0px;
+}
+.part3 .leftr3 .fromform {
+  display: flex;
+}
+.part3 .leftr3 input {
+  font-size: 25px;
+  outline: none;
+  color: black;
+  border: 3px solid black;
+  border-radius: 7px;
+  width: 350px;
+  height: 50px;
+  box-shadow: 0px 3px 0px black;
+  margin-bottom: 100px;
+  margin-left: -25px;
+}
+.part3 .leftr3 .letsgor3 {
+  padding: 15px 40px;
+  box-shadow: 0px 3px 0px black;
+  background-color: rgb(255, 189, 18);
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.part3 .leftr3 .letsgor3:active {
+  border: 1px solid black;
+  box-shadow: none;
+}
+
+.part4 {
+  width: 80%;
+}
+.part4 .t1r4 {
+  margin: 100px 0px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.part4 .divho {
+  display: flex;
+}
+.part4 .divho .div1r4 .img1r4 {
+  height: 450px;
+}
+.part4 .divho .div1r4 .t1img1r4 {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+  text-align: left;
+}
+.part4 .divho .div1r4 .t2img1r4 {
+  margin: 10px 0px;
+  color: rgb(71, 74, 87);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part4 .divho .div1r4 .t3img1r4 {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.part5 {
+  margin-left: 9%;
+  width: 82%;
+}
+.part5 .t1r5 {
+  padding-top: 150px;
+  color: rgb(71, 74, 87);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.part5 .t2r5 {
+  margin-top: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.part5 .tarifho {
+  display: flex;
+  padding-top: 100px;
+}
+.part5 .tarifho .tarifi1 {
+  background-color: rgb(249, 90, 44);
+  width: 22%;
+  height: 370px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px black;
+}
+.part5 .tarifho .tarifi1 .t1t1 {
+  padding: 10px 25px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi1 .t1t2 {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi1 .t1t3 {
+  margin-left: 25px;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi1 .buttomt1r5 {
+  box-shadow: 0px 5px 0px black;
+  width: 60%;
+  padding: 10px 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+}
+.part5 .tarifho .tarifi1 .buttomt1r5:active {
+  box-shadow: none;
+  border: 1px solid black;
+}
+.part5 .tarifho .tarifi2 {
+  background-color: rgb(27, 219, 196);
+  width: 22%;
+  height: 370px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px black;
+}
+.part5 .tarifho .tarifi2 .t1t1 {
+  padding: 10px 25px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi2 .t1t2 {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi2 .t1t3 {
+  margin-left: 25px;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi2 .buttomt1r5 {
+  box-shadow: 0px 5px 0px black;
+  width: 60%;
+  padding: 10px 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+}
+.part5 .tarifho .tarifi2 .buttomt1r5:active {
+  box-shadow: none;
+  border: 1px solid black;
+}
+.part5 .tarifho .tarifi3 {
+  background-color: rgb(150, 46, 255);
+  width: 22%;
+  height: 370px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px black;
+}
+.part5 .tarifho .tarifi3 .t1t1 {
+  padding: 10px 25px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi3 .t1t2 {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi3 .t1t3 {
+  margin-left: 25px;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi3 .buttomt1r5 {
+  box-shadow: 0px 5px 0px black;
+  width: 60%;
+  padding: 10px 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+}
+.part5 .tarifho .tarifi3 .buttomt1r5:active {
+  box-shadow: none;
+  border: 1px solid black;
+}
+.part5 .tarifho .tarifi4 {
+  background-color: rgb(255, 189, 18);
+  width: 22%;
+  height: 370px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px black;
+}
+.part5 .tarifho .tarifi4 .t1t1 {
+  padding: 10px 25px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi4 .t1t2 {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi4 .t1t3 {
+  margin-left: 25px;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.part5 .tarifho .tarifi4 .buttomt1r5 {
+  box-shadow: 0px 5px 0px black;
+  width: 60%;
+  padding: 10px 15px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+}
+.part5 .tarifho .tarifi4 .buttomt1r5:active {
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+.part6 .form {
+  width: 1349px;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.part6 .formleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 502px;
+  height: 305px;
+  border-radius: 10px;
+}
+.part6 .formlefttop {
+  width: 580px;
+  height: 97px;
+}
+.part6 .formlefttop p {
+  font-family: Permanent Marker;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48.5px;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 70%;
+}
+.part6 .formleftmid {
+  width: 399px;
+  height: 81px;
+}
+.part6 .formleftmid p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part6 .formleftend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 399px;
+  height: 46.84px;
+}
+.part6 .formleftend p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: left;
+}
+.part6 .formleft11 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189px;
+  height: 52px;
+  gap: 10px;
+  border-radius: 10px;
+  background-image: url(./shape\ 3.png);
+  background-size: 100% 100%;
+  color: white;
+}
+.part6 .formleft22 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189px;
+  height: 52px;
+  gap: 10px;
+  border-radius: 10px;
+  background-image: url(./shape\ 3.png);
+  background-size: 100% 100%;
+  color: white;
+}
+.part6 .formright {
+  padding: 50px 30px;
+  width: 363px;
+  height: 481px;
+  border: 1px solid #1C1C1D;
+  border-bottom: 4px solid #1C1C1D;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.part6 .formleft11,
+.part6 .formleft22 {
+  background-image: none;
+  background-color: #FA6648;
+  border: 1px solid #1C1C1D;
+  border-bottom: 4px solid #1C1C1D;
+}
+.part6 .signup {
+  display: flex;
+  gap: 30px;
+}
+.part6 .signup p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.625px;
+  text-align: left;
+  color: #FA6648;
+}
+.part6 .login {
+  color: #1C1C1D !important;
+}
+.part6 .formright input {
+  width: 300px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.part6 .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26.17px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #474A57;
+}
+.part6 .checkbox input {
+  accent-color: #FFBD12;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #1C1C1D;
+}
+.part6 .signupbut {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid #1C1C1D;
+  border-bottom: 3px solid #1C1C1D;
+  background-color: #FA6648;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+  letter-spacing: 0.4499999881px;
+  text-align: center;
+  color: white;
+}
+.part6 .footer {
+  width: 1299px;
+  padding: 0 100px;
+  height: 140px;
+  margin: auto;
+  background-color: #7711DD;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.part6 .footertext {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.part6 .footertext p {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.72px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: white;
+}
+.part6 .footer .formleft11,
+.part6 .footer .formleft22 {
+  background-image: none;
+  background-color: #FFBD12;
+  border: 1px solid #1C1C1D;
+  border-bottom: 4px solid #1C1C1D;
+}
+.part6 .htopleft {
+  background-color: rgb(85, 230, 85);
+  color: white;
+  font-weight: 900;
+  padding: 15px 5px;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
